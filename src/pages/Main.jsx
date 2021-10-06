@@ -7,10 +7,10 @@ class Main extends Component {
                 <div className = "relative">
                     <div className = "relative z-50">
                         <div className = "grid px-10 md:px-20 lg:px-30 xl:px-40">
-                            <h1 className = "text-5xl xl:text-6xl mt-20 font-bold mb-5">Spacebook</h1>
-                            <h2 className = "text-2xl xl:text-3xl mt-0 mb-2 font-semibold text-purple-500">작품의 가치를 더하세요.</h2>
-                            <h3 className = "text-md mt-0 w-68 xl:w-80 font-medium">여러 주제의 작품을 둘러보고 마음에 드는 작품이나 제작자를 찾아보세요.</h3>
-                        </div>
+                            <h1 className = "text-5xl xl:text-6xl 2xl:text-8xl mt-20 font-bold mb-5">Spacebook</h1>
+                            <h2 className = "text-2xl xl:text-3xl 2xl:text-5xl mt-0 mb-2 font-semibold text-purple-500">작품의 가치를 더하세요.</h2>
+                            <h3 className = "text-md mt-0 w-68 xl:w-80 2xl:w-120 2xl:text-lg font-medium">여러 주제의 작품을 둘러보고 마음에 드는 작품이나 제작자를 찾아보세요.</h3>
+                        </div> 
                     </div>
                     <div className = "absolute top-0 bottom-0">
                         <div className = "h-30 md:h-20 lg:h-10 xl:h-0 bg-color-lightbg" />
