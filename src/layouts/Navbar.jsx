@@ -72,7 +72,14 @@ class NavBar extends Component {
                             <Link to="/discuss">토론</Link>
                         </Menu.Item>
                         <Divider className="border-gray-300 mb-3" />
-                        <Button type="primary" shape="round" className="w-52">로그인</Button>
+                        <Input.Search placeholder="작품을 검색하세요" className = "w-52 mb-1" />
+                        <Button className = "btn w-52 mb-3">내 작품 공유하기</Button>
+                        <Divider className="border-gray-300 mb-3" />
+                        <div className = "flex justify-between px-14">
+                            <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8" />
+                            <BellFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
+                            <MessageFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
+                        </div>
                     </Menu>
                 </Drawer>
             </>
