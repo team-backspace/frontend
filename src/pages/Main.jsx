@@ -14,7 +14,7 @@ class Main extends Component {
                                 <h2 className = "text-2xl md:text-3xl 2xl:text-5xl mt-0 mb-2 font-semibold text-purple-500">작품의 가치를 더하세요.</h2>
                                 <h3 className = "text-md mt-0 w-68 md:w-80 2xl:w-120 2xl:text-lg font-medium">여러 주제의 작품을 둘러보고 마음에 드는 작품이나 제작자를 찾아보세요.</h3>
                             </div>
-                            <div className = "hidden  xl:(grid grid-cols-2) mt-10 px-8">
+                            <div className = "hidden  xl:(grid grid-cols-2) my-10 px-8">
                                 <div>
                                     <Card
                                         hoverable
@@ -53,7 +53,7 @@ class Main extends Component {
                                             <MinusOutlined className = "!text-green-800" />
                                         </div>
                                     </Card>
-                                    <div className = "flex py-4 px-4 flex-col w-56 h-70 rounded-2xl !mt-6" style = {{ backgroundImage: `url("${'src/dummydata/images/Base.png'}")` }}>
+                                    <div className = "flex py-4 px-4 flex-col w-56 h-80 rounded-2xl !mt-6" style = {{ backgroundImage: `url("${'src/dummydata/images/Base.png'}")` }}>
                                         <div className = "flex-grow" />
                                         <div className = "">
                                             <h2 className = "text-white text-2xl font-bold mb-0">#Choshinyoung</h2>
