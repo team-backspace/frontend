@@ -7,7 +7,8 @@ export default defineConfig({
             colors: {
                 "color-lblue": "#0880AE",
                 "color-dblue": "#026f99",
-                "color-lightbg": "#eef4ff"
+                "color-lightbg": "#eef4ff",
+                "color-indigo": "#6F96FF"
             }
         }
     },
