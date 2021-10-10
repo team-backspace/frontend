@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Card, Avatar, Input } from "antd";
-import { HeartFilled, MessageFilled, PlusOutlined, MinusOutlined } from "@ant-design/icons";
+import { Card as ACard } from "antd";
+import { PlusOutlined, MinusOutlined } from "@ant-design/icons";
+
+import Card from "../components/Card";
 
 class Main extends Component {
     render () {
@@ -16,32 +18,16 @@ class Main extends Component {
                             </div>
                             <div className = "hidden  xl:(grid grid-cols-2) my-10 px-8">
                                 <div>
-                                    <Card
-                                        hoverable
-                                        className = "w-56 !rounded-2xl"
-                                        cover = {<img className = "h-40 !rounded-t-2xl" alt="example" src="src/dummydata/images/CardImage.png"  />}
-                                        actions = {[
-                                            <div className = ""> 
-                                                <HeartFilled className = "text-xl" /> <p className="mt-1">1024</p>
-                                            </div>,
-                                            <div className = ""> 
-                                                <MessageFilled className = "text-xl" /> <p className = "mt-1">512</p>
-                                            </div>
-                                        ]}
-                                    >
-                                        <Card.Meta 
-                                            avatar = {<Avatar src="src/dummydata/images/patrick.png" />}
-                                            title = "햎반" description = "맑은 하늘 아래에..." />
-                                    </Card>
-                                    <Card
+                                    <Card title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                    <ACard
                                         className = "w-56 !bg-color-lblue !rounded-2xl !mt-6"
                                     >
                                         <h1 className = "text-xl text-white font-bold"># 무민</h1>
                                         <h3 className = "text-md text-white font-semibold">존경개의 작품, 존경개의 좋아요, 존경의 Vue</h3>
-                                    </Card>
+                                    </ACard>
                                 </div>
                                 <div>
-                                    <Card
+                                    <ACard
                                         className = "w-56 !bg-green-500 !rounded-2xl"
                                     >
                                         <h4 className = "text-green-200 font-semibold mb-0">$2048</h4>
@@ -52,7 +38,7 @@ class Main extends Component {
                                             <h3 className = "font-semibold flex-grow text-center pt-1">$15</h3>
                                             <MinusOutlined className = "!text-green-800" />
                                         </div>
-                                    </Card>
+                                    </ACard>
                                     <div className = "flex py-4 px-4 flex-col w-56 h-80 rounded-2xl !mt-6" style = {{ backgroundImage: `url("${'src/dummydata/images/Base.png'}")` }}>
                                         <div className = "flex-grow" />
                                         <div className = "">
