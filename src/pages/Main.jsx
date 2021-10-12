@@ -10,13 +10,13 @@ class Main extends Component {
             <>
                 <div className = "relative">
                     <div className = "relative z-50">
-                        <div className = "flex flex-col justify-center grid mx-auto xl:grid-cols-2 @sm:px-10 @md:px-20 @lg:px-30 @xl:pl-40">
-                            <div>
-                                <h1 className = "text-5xl md:text-6xl 2xl:text-8xl mt-20 font-bold mb-5">Spacebook</h1>
+                        <div className = "flex flex-col justify-center grid mx-auto xl:grid-cols-2 @sm:px-10 @md:px-20 @lg:px-30 xl:pl-40">
+                            <div className = "2xl:pt-20">
+                                <h1 className = "text-5xl xl:text-6xl 2xl:text-8xl mt-20 font-bold mb-5">Spacebook</h1>
                                 <h2 className = "text-2xl md:text-3xl 2xl:text-5xl mt-0 mb-2 font-semibold text-purple-500">작품의 가치를 더하세요.</h2>
                                 <h3 className = "text-md mt-0 w-68 md:w-80 2xl:w-120 2xl:text-lg font-medium">여러 주제의 작품을 둘러보고 마음에 드는 작품이나 제작자를 찾아보세요.</h3>
                             </div>
-                            <div className = "hidden  xl:(grid grid-cols-2) my-10 px-8">
+                            <div className = "hidden  xl:(grid grid-cols-2) my-10 xl:px-8 2xl:px-30">
                                 <div>
                                     <Card title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
                                     <ACard
