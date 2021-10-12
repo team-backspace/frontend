@@ -57,6 +57,89 @@ class Main extends Component {
                         </svg>
                     </div>
                 </div>
+                <div className = "mt-60 xl:mt-20 text-center">
+                    <div className = "">
+                        <h1 className = "text-2xl 2xl:text-3xl font-semibold">시녕님을 위해 준비했어요.</h1>
+                        <div className = "px-20 mt-10">
+                            <div className = "bg-blue-200 rounded-2xl w-30 text-blue-500 font-semibold text-left px-5 py-1">
+                                # 키키
+                            </div>
+                            <div className = "mt-5 flex <xl:flex-wrap">
+                                <Card className = "" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow" />
+                                <Card className = "<sm:(!mt-5)" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <sm:hidden" />
+                                <Card className = "<sm:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <xl:hidden" />
+                                <Card className = "<xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <2xl:hidden" />
+                                <Card className = "<2xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                            </div>
+                        </div>
+                        <div className = "px-20 mt-10">
+                            <div className = "bg-blue-200 rounded-2xl w-30 text-blue-500 font-semibold text-left px-5 py-1">
+                                # 크크
+                            </div>
+                            <div className = "mt-5 flex <xl:flex-wrap">
+                                <Card className = "" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow" />
+                                <Card className = "<sm:(!mt-5)" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <sm:hidden" />
+                                <Card className = "<sm:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <xl:hidden" />
+                                <Card className = "<xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <2xl:hidden" />
+                                <Card className = "<2xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                            </div>
+                        </div>
+                        
+                        <div className = "px-20 mt-10">
+                            <div className = "bg-blue-200 rounded-2xl w-30 text-blue-500 font-semibold text-left px-5 py-1">
+                                # 킄
+                            </div>
+                            <div className = "mt-5 flex <xl:flex-wrap">
+                                <Card className = "" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow" />
+                                <Card className = "<sm:(!mt-5)" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <sm:hidden" />
+                                <Card className = "<sm:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <xl:hidden" />
+                                <Card className = "<xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow <2xl:hidden" />
+                                <Card className = "<2xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className = "mt-60 xl:mt-20 text-center">
+                    <div className = "<md:hidden">
+                        <h1 className = "text-2xl 2xl:text-3xl font-semibold">더 다양한 제작자의 작품을 둘러보세요.</h1>
+                        <div className = "mt-10 px-20 ">
+                            <div className = "flex">
+                                <Card className = "" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow" />
+                                <Card className = "" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "<lg:hidden flex-grow" />
+                                <Card className = "<lg:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "<xl:hidden flex-grow" />
+                                <Card className = "<xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "<2xl:hidden flex-grow" />
+                                <Card className = "<2xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                            </div>
+                            <div className = "flex mt-5">
+                                <Card className = "" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "flex-grow" />
+                                <Card className = "" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "<lg:hidden flex-grow" />
+                                <Card className = "<lg:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "<xl:hidden flex-grow" />
+                                <Card className = "<xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                                <div className = "<2xl:hidden flex-grow" />
+                                <Card className = "<2xl:hidden" title = "햎반" desc = "맑은 하늘 아래에..." avatar = "src/dummydata/images/patrick.png" img = "src/dummydata/images/CardImage.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </>
         )
     }

@@ -4,8 +4,8 @@ import { HeartFilled, MessageFilled } from "@ant-design/icons";
 
 
 class Card extends Component {
-    constructor ({ img, avatar, title, desc }) {
-        super ({ img, avatar, title, desc });
+    constructor ({ img, avatar, title, desc, className = "" }) {
+        super ({ img, avatar, title, desc, className });
         this.state = {
             img: img,
             avatar: avatar,
@@ -18,7 +18,7 @@ class Card extends Component {
         return (
             <ACard
                 hoverable
-                className = "w-56 !rounded-2xl overflow-hidden"
+                className = {`w-56 !rounded-2xl overflow-hidden ${this.props.className}`}
                 cover = {<img className = "h-40 !rounded-t-2xl" alt="example" src={this.state.img}  />}
                 actions = {[
                     <div className = ""> 
