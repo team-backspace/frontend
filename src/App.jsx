@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import NavBar from "./layouts/NavBar";
+import Footer from "./layouts/Footer";
 
 import Main from "./pages/Main";
 
@@ -15,6 +16,7 @@ function App() {
                         <Route exact path="/" component={Main} />
                     </Switch>
                 </div>
+                <Footer />
             </BrowserRouter>
         </div>
     )

@@ -9,6 +9,9 @@ export default defineConfig({
                 "color-dblue": "#026f99",
                 "color-lightbg": "#eef4ff",
                 "color-indigo": "#6F96FF"
+            },
+            fontFamily: {
+                "poppins": ["Poppins"]
             }
         }
     },
