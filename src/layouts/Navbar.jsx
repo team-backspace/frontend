@@ -26,17 +26,14 @@ class NavBar extends Component {
                     <div className="hidden xl:flex">
                         <div className="float-left mt-1">
                             <Menu mode="horizontal" className="border-b-0 h-10">
-                                <Menu.Item key="discovery">
-                                    <Link to="/discovery">탐색</Link>
+                                <Menu.Item key="recommends">
+                                    <Link to="recommends">오늘의 추천</Link>
                                 </Menu.Item>
-                                <Menu.Item key="live">
-                                    <Link to="/live">라이브</Link>
+                                <Menu.Item key="explore">
+                                    <Link to="explore">탐색</Link>
                                 </Menu.Item>
-                                <Menu.Item key="fund">
-                                    <Link to="/fund">펀딩</Link>
-                                </Menu.Item>
-                                <Menu.Item key="discuss">
-                                    <Link to="/discuss">토론</Link>
+                                <Menu.Item key="search">
+                                    <Link to="search">펀딩</Link>
                                 </Menu.Item>
                             </Menu>
                         </div>
