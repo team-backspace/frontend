@@ -16,14 +16,14 @@ class Main extends Component {
                         </div>
                         <img className = "-mt-40" src = "src/dummydata/images/projects.png" />
                     </div>
-                    <div className = "grid grid-cols-2 h-screen flex items-center">
+                    <div className = "grid grid-cols-2 flex items-center">
                         <img className = "-mt-40 ml-40" src = "src/dummydata/images/project-board.png" />
                         <div className = "-mt-30 ml-30">
                             <h3 className = "text-2xl font-medium">당신을 위한 작품을<br />직접 찾지 마세요</h3>
                             <h1 className = "text-4xl font-semibold">내 취향 작품들이 한눈에</h1>
                         </div>
                     </div>
-                    <div className = "px-20 grid grid-cols-2 h-screen flex items-center">
+                    <div className = "px-20 grid grid-cols-2 mt-20 flex items-center">
                         <div className = "-mt-30">
                             <h1 className = "text-4xl font-semibold">100% 익명성 커뮤니티</h1>
                             <div className = "">
@@ -43,7 +43,7 @@ class Main extends Component {
                         </div>
                         <img className = "-mt-40" src = "src/dummydata/images/chat.png" />
                     </div>
-                    <div className = "h-screen flex flex-col items-center">
+                    <div className = " flex flex-col items-center">
                         <h3 className = "text-2xl font-medium">표현을 자유롭게</h3>
                         <h1 className = "text-3xl font-semibold">마음에 드는 제작자에게 후원하세요</h1>
                         <img className = "-mt-10 ml-40" src = "src/dummydata/images/buy.png" />
