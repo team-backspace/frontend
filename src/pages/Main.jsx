@@ -9,12 +9,19 @@ class Main extends Component {
         return (        
             <>
                 <div className = "">
-                    <div className = "px-50 grid grid-cols-2 h-screen flex items-center">
+                    <div className = "<xl:hidden px-50 grid grid-cols-2 h-screen flex items-center">
                         <div className = "-mt-30">
                             <h1 className = "text-4xl font-semibold text-purple-600">작품의 가치를 더하세요</h1>
                             <h4 className = "text-md font-semibold w-90">여러 주제의 작품을 둘러보고, 작품 업로드, 제작자에게 후원하기 등 다양한 작품과 소통하기 위한 기능들이 모두 준비되어 있습니다.</h4>
                         </div>
                         <img className = "-mt-40" src = "src/dummydata/images/projects.png" />
+                    </div>
+                    <div className = "xl:hidden flex flex-col items-center mb-50">
+                        <img className = "w-60 h-60 md:(w-70 h-70) lg:(w-100 h-100) mb-5" src = "src/dummydata/images/projects.png" />
+                        <div className = "text-center px-10 md:px-0">
+                            <h1 className = "text-2xl md:text-3xl lg:text-4xl font-semibold text-purple-600">작품의 가치를 더하세요</h1>
+                            <h4 className = "text-sm md:text-md font-semibold w-auto md:w-90 break-all">여러 주제의 작품을 둘러보고, 작품 업로드, 제작자에게 후원하기 등 다양한 작품과 소통하기 위한 기능들이 모두 준비되어 있습니다.</h4>
+                        </div>
                     </div>
                     <div className = "grid grid-cols-2 flex items-center">
                         <img className = "-mt-40 ml-40" src = "src/dummydata/images/project-board.png" />
@@ -23,7 +30,7 @@ class Main extends Component {
                             <h1 className = "text-4xl font-semibold">내 취향 작품들이 한눈에</h1>
                         </div>
                     </div>
-                    <div className = "px-20 grid grid-cols-2 mt-20 flex items-center">
+                    <div className = "2xl:px-40 xl:px-20 grid grid-cols-2 mt-20 flex items-center">
                         <div className = "-mt-30">
                             <h1 className = "text-4xl font-semibold">100% 익명성 커뮤니티</h1>
                             <div className = "">
@@ -48,17 +55,17 @@ class Main extends Component {
                         <h1 className = "text-3xl font-semibold">마음에 드는 제작자에게 후원하세요</h1>
                         <img className = "-mt-10 ml-40" src = "src/dummydata/images/buy.png" />
                     </div>
-                    <div className = "w-9/12 flex items-center grid grid-cols-2 text-center">
-                        <img className = "w-60 ml-70" src = "src/dummydata/images/start.png" />
-                        <div className = "mt-7">
-                            <h3 className = "text-3xl font-semibold mb-2">다양한 작품들이 하나로</h3>
-                            <h4 className = "text-lg"><i>Spacebook</i>은 대부분의 작품 유형을 지원합니다</h4>
+                    <div className = "xl:w-9/12 flex <xl:flex-col items-center xl:(grid grid-cols-2) text-center">
+                        <img className = "w-60 xl:ml-70" src = "src/dummydata/images/start.png" />
+                        <div className = "mt-3 lg:mt-5 xl:mt-7">
+                            <h3 className = "text-xl md:text-2xl xl:text-3xl font-semibold mb-2">다양한 작품들이 하나로</h3>
+                            <h4 className = "text-sm md:text-base xl:text-lg"><i>Spacebook</i>은 대부분의 작품 유형을 지원합니다</h4>
                         </div>
                     </div>
                     <div className = "my-50 text-center">
-                        <h1 className = "text-4xl font-semibold">이 모든것을 Spacebook으로 시작하세요</h1>
+                        <h1 className = "break-all px-10 md:px-0 text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold">이 모든것을 Spacebook으로 시작하세요</h1>
                         <Link to = "recommends" className = "">
-                            <Button className = "mt-10 w-50 !h-15 !text-lg !font-semibold !rounded-lg !border-gray-400">시작하기</Button>
+                            <Button className = "w-30 h-5 !text-xs mt-3 md:h-7 lg:(w-40 h-10 !text-base mt-5) xl:(w-50 !h-15 !text-lg mt-10) !font-semibold !rounded-lg !border-gray-400">시작하기</Button>
                         </Link>
                     </div>
                 </div>
