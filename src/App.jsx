@@ -5,6 +5,7 @@ import NavBar from "./layouts/NavBar";
 import Footer from "./layouts/Footer";
 
 import Main from "./pages/Main";
+import Recommends from "./pages/Recommends";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <div className="mb-auto flex-grow">
                     <Switch>
                         <Route exact path="/" component={Main} />
+                        <Route path="/recommends" component={Recommends} />
                     </Switch>
                 </div>
                 <Footer />
