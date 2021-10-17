@@ -9,6 +9,7 @@ import Recommends from "./pages/Recommends";
 import Explore from "./pages/Explore";
 import Search from "./pages/Search";
 import Login from "./pages/Login";
+import UserProfile from "./pages/UserProfile";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                         <Route path="/explore" component={Explore} />
                         <Route path="/search" component={Search} />
                         <Route path="/login" component={Login} />
+                        <Route path="/user/:name" component={UserProfile} />
                     </Switch>
                 </div>
                 <Footer />

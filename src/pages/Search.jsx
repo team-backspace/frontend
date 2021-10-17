@@ -12,7 +12,7 @@ class Search extends Component {
 
         this.state = {
             query: (new URLSearchParams(window.location.search)).get("query"),
-            results: ["킄"]
+            results: []
         }
     }
     render () {
