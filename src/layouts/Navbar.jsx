@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { Typography, Menu, Button, Drawer, Divider, Input, Dropdown } from "antd";
 import { UnorderedListOutlined, MessageFilled, BellFilled } from "@ant-design/icons";
 
+import api from "../api/api";
+
 
 class NavBar extends Component {
     constructor (props) {
@@ -12,6 +14,11 @@ class NavBar extends Component {
             drawerOpen: false,
             query: ""
         };
+    }
+
+    logout () {
+        delete localStorage.token;
+        api.post("/logout");
     }
 
     render () {
@@ -57,7 +64,7 @@ class NavBar extends Component {
                                                         프로필
                                                     </Link>
                                                 </Menu.Item>
-                                                <Menu.Item>로그아웃</Menu.Item>
+                                                <Menu.Item onClick = {() => this.logout()}>로그아웃</Menu.Item>
                                             </Menu>
                                         }>
                                             <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8 mt-3" />
@@ -108,7 +115,7 @@ class NavBar extends Component {
                                                     프로필
                                                 </Link>
                                             </Menu.Item>
-                                            <Menu.Item>로그아웃</Menu.Item>
+                                            <Menu.Item onClick = {() => this.logout()}>로그아웃</Menu.Item>
                                         </Menu.SubMenu>
                                     </div>
                                 ) : (
