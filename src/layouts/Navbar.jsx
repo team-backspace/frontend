@@ -43,12 +43,21 @@ class NavBar extends Component {
                             <Input.Search placeholder="작품을 검색하세요" className = "mt-3 px-30 2xl:px-40" />
                         </div>
 
-                        <div className = "float-right flex">
-                            <Button className = "btn mr-10 mt-3">내 작품 공유하기</Button>
-                            <BellFilled className = "text-xl mt-4 mr-4 !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out" />
-                            <MessageFilled className = "text-xl mt-4 mr-4 !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out" />
-                            <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8 mt-3" />
-                        </div>
+                        {
+                            !!localStorage.token ?
+                                (
+                                    <div className = "float-right flex">
+                                        <Button className = "btn mr-10 mt-3">내 작품 공유하기</Button>
+                                        <BellFilled className = "text-xl mt-4 mr-4 !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out" />
+                                        <MessageFilled className = "text-xl mt-4 mr-4 !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out" />
+                                        <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8 mt-3" />
+                                    </div>
+                                ) : (
+                                    <Link to = "login">
+                                        <Button className = "btn mr-10 mt-3 w-40">로그인</Button>
+                                    </Link>
+                                )
+                        }
                     </div>
 
                     <div className="mt-3 float-right xl:hidden">
@@ -71,13 +80,24 @@ class NavBar extends Component {
                         </Menu.Item>
                         <Divider className="border-gray-300 mb-3" />
                         <Input.Search placeholder="작품을 검색하세요" className = "w-52 mb-1" />
-                        <Button className = "btn w-52 mb-3">내 작품 공유하기</Button>
-                        <Divider className="border-gray-300 mb-3" />
-                        <div className = "flex justify-between px-12">
-                            <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8" />
-                            <BellFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
-                            <MessageFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
-                        </div>
+                        {
+                            !!localStorage.token ?
+                                (
+                                    <div>
+                                        <Button className = "btn w-52 mb-3">내 작품 공유하기</Button>
+                                        <Divider className="border-gray-300 mb-3" />
+                                        <div className = "flex justify-between px-12">
+                                            <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8" />
+                                            <BellFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
+                                            <MessageFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
+                                        </div>
+                                    </div>
+                                ) : (
+                                    <Link to = "login">
+                                        <Button className = "btn w-52 mb-3">로그인</Button>
+                                    </Link>
+                                )
+                        }
                     </Menu>
                 </Drawer>
             </>

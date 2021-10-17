@@ -8,6 +8,7 @@ import Main from "./pages/Main";
 import Recommends from "./pages/Recommends";
 import Explore from "./pages/Explore";
 import Search from "./pages/Search";
+import Login from "./pages/Login";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                         <Route path="/recommends" component={Recommends} />
                         <Route path="/explore" component={Explore} />
                         <Route path="/search" component={Search} />
+                        <Route path="/login" component={Login} />
                     </Switch>
                 </div>
                 <Footer />
