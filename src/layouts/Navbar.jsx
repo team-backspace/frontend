@@ -65,7 +65,7 @@ class NavBar extends Component {
                                     </div>
                                 ) : (
                                     <Link to = "login">
-                                        <Button className = "btn mr-10 mt-3 w-40">로그인</Button>
+                                        <Button className = "btn mr-10 mt-3 w-40">로그인/가입</Button>
                                     </Link>
                                 )
                         }
@@ -113,7 +113,7 @@ class NavBar extends Component {
                                     </div>
                                 ) : (
                                     <Link to = "login">
-                                        <Button className = "btn w-52 mb-3">로그인</Button>
+                                        <Button className = "btn w-52 mb-3">로그인/가입</Button>
                                     </Link>
                                 )
                         }
