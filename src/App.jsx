@@ -10,6 +10,7 @@ import Explore from "./pages/Explore";
 import Search from "./pages/Search";
 import Login from "./pages/Login";
 import UserProfile from "./pages/UserProfile";
+import Project from "./pages/Project";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                         <Route path="/search" component={Search} />
                         <Route path="/login" component={Login} />
                         <Route path="/user/:name" component={UserProfile} />
+                        <Route path="/project/:id" component={Project} />
                     </Switch>
                 </div>
                 <Footer />

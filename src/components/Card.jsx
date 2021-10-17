@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card as ACard, Avatar, Divider, Tag } from "antd";
+import { Card as ACard, Tag } from "antd";
 import { HeartFilled, MessageFilled } from "@ant-design/icons";
 
 
