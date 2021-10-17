@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import { Typography, Menu, Button, Drawer, Divider, Input } from "antd";
+import { Typography, Menu, Button, Drawer, Divider, Input, Dropdown } from "antd";
 import { UnorderedListOutlined, MessageFilled, BellFilled } from "@ant-design/icons";
 
 
@@ -50,7 +50,18 @@ class NavBar extends Component {
                                         <Button className = "btn mr-10 mt-3">내 작품 공유하기</Button>
                                         <BellFilled className = "text-xl mt-4 mr-4 !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out" />
                                         <MessageFilled className = "text-xl mt-4 mr-4 !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out" />
-                                        <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8 mt-3" />
+                                        <Dropdown overlay = {
+                                            <Menu>
+                                                <Menu.Item>
+                                                    <Link to = "profile/patrick">
+                                                        프로필
+                                                    </Link>
+                                                </Menu.Item>
+                                                <Menu.Item>로그아웃</Menu.Item>
+                                            </Menu>
+                                        }>
+                                            <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8 mt-3" />
+                                        </Dropdown>
                                     </div>
                                 ) : (
                                     <Link to = "login">
@@ -91,6 +102,14 @@ class NavBar extends Component {
                                             <BellFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
                                             <MessageFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
                                         </div>
+                                        <Menu.SubMenu key = "sub" title = "정보">
+                                            <Menu.Item>
+                                                <Link to = "profile/patrick">
+                                                    프로필
+                                                </Link>
+                                            </Menu.Item>
+                                            <Menu.Item>로그아웃</Menu.Item>
+                                        </Menu.SubMenu>
                                     </div>
                                 ) : (
                                     <Link to = "login">
