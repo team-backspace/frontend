@@ -9,7 +9,8 @@ class NavBar extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            drawerOpen: false
+            drawerOpen: false,
+            query: ""
         };
     }
 

@@ -7,6 +7,7 @@ import Footer from "./layouts/Footer";
 import Main from "./pages/Main";
 import Recommends from "./pages/Recommends";
 import Explore from "./pages/Explore";
+import Search from "./pages/Search";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                         <Route exact path="/" component={Main} />
                         <Route path="/recommends" component={Recommends} />
                         <Route path="/explore" component={Explore} />
+                        <Route path="/search" component={Search} />
                     </Switch>
                 </div>
                 <Footer />
