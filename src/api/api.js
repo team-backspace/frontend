@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://spacebook-backend.loca.lt/";
+const BASE_URL = "http://localhost/";
 const api = axios.create({
     baseURL: BASE_URL
 })
