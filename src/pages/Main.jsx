@@ -35,15 +35,15 @@ class Main extends Component {
                             <h1 className = "text-4xl font-semibold">100% 익명성 커뮤니티</h1>
                             <div className = "">
                                 <div className = "flex">
-                                    <img className = "rounded-full w-10 h-10" src = "src/dummydata/images/patrick.png" />
+                                    <img className = "rounded-full w-10 h-10" src = "src/dummydata/images/patrick.jpg" />
                                     <h3 className = "text-2xl mt-1 ml-3">모서리를 조금 더 둥글게 하는건 어떨까요?</h3>
                                 </div>
                                 <div className = "flex">
-                                    <img className = "rounded-full w-10 h-10" src = "src/dummydata/images/patrick.png" />
+                                    <img className = "rounded-full w-10 h-10" src = "src/dummydata/images/patrick.jpg" />
                                     <h3 className = "text-2xl mt-1 ml-3">작품이 멋지네요!</h3>
                                 </div>
                                 <div className = "flex">
-                                    <img className = "rounded-full w-10 h-10" src = "src/dummydata/images/patrick.png" />
+                                    <img className = "rounded-full w-10 h-10" src = "src/dummydata/images/patrick.jpg" />
                                     <h3 className = "text-2xl mt-1 ml-3">디자인이 전체적으로 깔끔하니 보기 좋네요!</h3>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ class Main extends Component {
                     </div>
                     <div className = "my-50 text-center">
                         <h1 className = "break-all px-10 md:px-0 text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold">이 모든것을 Spacebook으로 시작하세요</h1>
-                        <Link to = "recommends" className = "">
+                        <Link to = "login" className = "">
                             <Button className = "w-30 h-5 !text-xs mt-3 md:h-7 lg:(w-40 h-10 !text-base mt-5) xl:(w-50 !h-15 !text-lg mt-10) !font-semibold !rounded-lg !border-gray-400">시작하기</Button>
                         </Link>
                     </div>

@@ -37,6 +37,10 @@ class Login extends Component {
         this.to_register = this.to_register.bind(this)
         this.to_login = this.to_login.bind(this)
     }
+    click () {
+        localStorage.token = "asd"
+        window.location.replace("http://localhost:3000")
+    }
     to_register() {
         window.location.replace(this.state.google_register_url)
         // fetch(this.state.google_register_url)
@@ -54,7 +58,7 @@ class Login extends Component {
                     <h1 className = "text-3xl font-thin mb-2">로그인</h1>
                     <h4 className = "text-xs font-thin mb-6">다음으로 로그인</h4>
                     <div className = "">
-                        <Button className = "w-50" icon = {<GoogleOutlined />} onClick={this.to_login}>
+                        <Button className = "w-50" icon = {<GoogleOutlined />} onClick={this.click}>
                             구글로 로그인
                         </Button>
                     </div>
@@ -63,7 +67,7 @@ class Login extends Component {
                     <h1 className = "text-3xl font-thin mb-2">가입</h1>
                     <h4 className = "text-xs font-thin mb-6">다음으로 가입</h4>
                     <div className = "">
-                        <Button className = "w-50" icon = {<GoogleOutlined />} onClick={this.to_register}>
+                        <Button className = "w-50" icon = {<GoogleOutlined />} onClick={this.click}>
                             구글로 가입
                         </Button>
                     </div>

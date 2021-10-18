@@ -32,99 +32,99 @@ class Search extends Component {
                                 <div className = "mt-5">
                                     <CardRow cards = {[
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         }
                                     ]} />
 
                                     <CardRow className = "mt-3" cards = {[
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         }
                                     ]} />
 
                                     <CardRow className = "mt-3" cards = {[
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         }
                                     ]} />
@@ -138,66 +138,66 @@ class Search extends Component {
                                 <div className = "mt-10">
                                     <CardRow cards = {[
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         }
                                     ]} />
 
                                     <CardRow className = "mt-3" cards = {[
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         },
                                         {
-                                            title: "햎반",
+                                            title: "섬",
                                             desc: "맑은 하늘 아래에...",
-                                            author: "PatrickKR",
+                                            author: "Patrick",
                                             img: "src/dummydata/images/CardImage.png"
                                         }
                                     ]} />

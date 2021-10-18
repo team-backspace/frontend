@@ -27,10 +27,10 @@ class Card extends Component {
                     <h4 className = "font-medium text-xs text-gray-400">{this.state.desc}</h4>
                 </div>
                 <div className = "pt-2 w-52 text-left -ml-1">
-                    <Tag closable={false}>키키</Tag>
-                    <Tag closable={false}>키키</Tag>
-                    <Tag closable={false}>키키</Tag>
-                    <Tag closable={false}>키키</Tag>
+                    <Tag closable={false}>자연</Tag>
+                    <Tag closable={false}>풍경화</Tag>
+                    <Tag closable={false}>상상</Tag>
+                    <Tag closable={false}>예술</Tag>
                 </div>
                 <div className = "w-56 h-16 mt-8 bg-color-lblue grid grid-cols-2 -mx-6 -mb-6 px-5">
                     <div className = "group flex mt-4 pl-8">
