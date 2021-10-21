@@ -44,9 +44,6 @@ class NavBar extends Component {
                                 <Menu.Item key="explore">
                                     <Link to="explore">탐색</Link>
                                 </Menu.Item>
-                                <Menu.Item key="search">
-                                    <Link to="search">검색</Link>
-                                </Menu.Item>
                             </Menu>
                         </div>
                         
@@ -88,17 +85,11 @@ class NavBar extends Component {
                 </nav>
                 <Drawer visible={this.state.drawerOpen} onClose={() => this.setState({ drawerOpen: !this.state.drawerOpen })}>
                     <Menu mode="vertical" className="border-0">
-                        <Menu.Item key="discovery">
-                            <Link to="/discovery">탐색</Link>
+                        <Menu.Item key="recommends">
+                            <Link to="recommends">오늘의 추천</Link>
                         </Menu.Item>
-                        <Menu.Item key="live">
-                            <Link to="/live">라이브</Link>
-                        </Menu.Item>
-                        <Menu.Item key="fund">
-                            <Link to="/fund">검색</Link>
-                        </Menu.Item>
-                        <Menu.Item key="discuss">
-                            <Link to="/discuss">토론</Link>
+                        <Menu.Item key="explore">
+                            <Link to="explore">탐색</Link>
                         </Menu.Item>
                         <Divider className="border-gray-300 mb-3" />
                         <Input.Search placeholder="작품을 검색하세요" className = "w-52 mb-1" />
