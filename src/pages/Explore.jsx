@@ -12,99 +12,99 @@ class Explore extends Component {
                     <div className = "mt-10">
                         <CardRow cards = {[
                             {
-                                title: "햎반",
+                                title: "석양",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "아티스트",
+                                img: "src/dummydata/images/sky.jpg"
                             },
                             {
-                                title: "햎반",
+                                title: "석양",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "아티스트",
+                                img: "src/dummydata/images/sky.jpg"
                             },
                             {
-                                title: "햎반",
+                                title: "석양",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "아티스트",
+                                img: "src/dummydata/images/sky.jpg"
                             },
                             {
-                                title: "햎반",
+                                title: "석양",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "아티스트",
+                                img: "src/dummydata/images/sky.jpg"
                             },
                             {
-                                title: "햎반",
+                                title: "석양",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
-                            }
+                                author: "아티스트",
+                                img: "src/dummydata/images/sky.jpg"
+                            },
                         ]} />
 
                         <CardRow className = "mt-3" cards = {[
                             {
-                                title: "햎반",
+                                title: "스페이스북",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "Coder",
+                                img: "https://media.discordapp.net/attachments/891623624040153098/891630593828327424/space.png?width=676&height=676"
                             },
                             {
-                                title: "햎반",
+                                title: "스페이스북",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "Coder",
+                                img: "https://media.discordapp.net/attachments/891623624040153098/891630593828327424/space.png?width=676&height=676"
                             },
                             {
-                                title: "햎반",
+                                title: "스페이스북",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "Coder",
+                                img: "https://media.discordapp.net/attachments/891623624040153098/891630593828327424/space.png?width=676&height=676"
                             },
                             {
-                                title: "햎반",
+                                title: "스페이스북",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
+                                author: "Coder",
+                                img: "https://media.discordapp.net/attachments/891623624040153098/891630593828327424/space.png?width=676&height=676"
                             },
                             {
-                                title: "햎반",
+                                title: "스페이스북",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
-                                img: "src/dummydata/images/CardImage.png"
-                            }
+                                author: "Coder",
+                                img: "https://media.discordapp.net/attachments/891623624040153098/891630593828327424/space.png?width=676&height=676"
+                            },
                         ]} />
 
                         <CardRow className = "mt-3" cards = {[
                             {
-                                title: "햎반",
+                                title: "외로운 섬",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
+                                author: "아티스트",
                                 img: "src/dummydata/images/CardImage.png"
                             },
                             {
-                                title: "햎반",
+                                title: "외로운 섬",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
+                                author: "아티스트",
                                 img: "src/dummydata/images/CardImage.png"
                             },
                             {
-                                title: "햎반",
+                                title: "외로운 섬",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
+                                author: "아티스트",
                                 img: "src/dummydata/images/CardImage.png"
                             },
                             {
-                                title: "햎반",
+                                title: "외로운 섬",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
+                                author: "아티스트",
                                 img: "src/dummydata/images/CardImage.png"
                             },
                             {
-                                title: "햎반",
+                                title: "외로운 섬",
                                 desc: "맑은 하늘 아래에...",
-                                author: "PatrickKR",
+                                author: "아티스트",
                                 img: "src/dummydata/images/CardImage.png"
                             }
                         ]} />

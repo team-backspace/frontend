@@ -21,6 +21,10 @@ class NavBar extends Component {
         api.post("/logout");
     }
 
+    click () {
+        localStorage.token = "asd"
+    }
+
     render () {
         return (
             <>
@@ -41,7 +45,7 @@ class NavBar extends Component {
                                     <Link to="explore">탐색</Link>
                                 </Menu.Item>
                                 <Menu.Item key="search">
-                                    <Link to="search">펀딩</Link>
+                                    <Link to="search">검색</Link>
                                 </Menu.Item>
                             </Menu>
                         </div>
@@ -67,7 +71,7 @@ class NavBar extends Component {
                                                 <Menu.Item onClick = {() => this.logout()}>로그아웃</Menu.Item>
                                             </Menu>
                                         }>
-                                            <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8 mt-3" />
+                                            <img src = "src/dummydata/images/patrick.jpg" className = "rounded-md w-8 h-8 mt-3" />
                                         </Dropdown>
                                     </div>
                                 ) : (
@@ -91,7 +95,7 @@ class NavBar extends Component {
                             <Link to="/live">라이브</Link>
                         </Menu.Item>
                         <Menu.Item key="fund">
-                            <Link to="/fund">펀딩</Link>
+                            <Link to="/fund">검색</Link>
                         </Menu.Item>
                         <Menu.Item key="discuss">
                             <Link to="/discuss">토론</Link>
@@ -105,7 +109,7 @@ class NavBar extends Component {
                                         <Button className = "btn w-52 mb-3">내 작품 공유하기</Button>
                                         <Divider className="border-gray-300 mb-3" />
                                         <div className = "flex justify-between px-12">
-                                            <img src = "src/dummydata/images/patrick.png" className = "rounded-md w-8 h-8" />
+                                            <img src = "src/dummydata/images/patrick.jpg" className = "rounded-md w-8 h-8" />
                                             <BellFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
                                             <MessageFilled className = "text-xl !text-color-lblue hover:(!text-color-dblue cursor-pointer) transition duration-500 ease-in-out mt-1" />
                                         </div>
@@ -120,7 +124,7 @@ class NavBar extends Component {
                                     </div>
                                 ) : (
                                     <Link to = "login">
-                                        <Button className = "btn w-52 mb-3">로그인/가입</Button>
+                                        <Button className = "btn w-52 mb-3" onClick={this.click}>로그인/가입</Button>
                                     </Link>
                                 )
                         }
