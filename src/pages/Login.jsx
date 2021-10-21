@@ -17,40 +17,22 @@ class Login extends Component {
         }
         if (localStorage.google_register_url === undefined) {
             api.get("/login?application=google_register")
-                .then(res => res.data)
+                .then(res => res.data.login_url)
                 .then(res => {
-                    res = res.login_url
                     localStorage.google_register_url = res
                     this.setState({ google_register_url: res })
                 })
         }
         if (localStorage.google_login_url === undefined) {
             api.get("/login?application=google_login")
-                .then(res => res.data)
+                .then(res => res.data.login_url)
                 .then(res => {
-                    res = res.login_url
                     localStorage.google_login_url = res
                     this.setState({ google_login_url: res })
                 })
         }
+    }
 
-        this.to_register = this.to_register.bind(this)
-        this.to_login = this.to_login.bind(this)
-    }
-    click () {
-        localStorage.token = "asd"
-        window.location.replace("http://localhost:3000")
-    }
-    to_register() {
-        window.location.replace(this.state.google_register_url)
-        // fetch(this.state.google_register_url)
-        //     .then(res => console.log(res.json()))
-    }
-    to_login() {
-        window.location.replace(this.state.google_login_url)
-        // fetch(this.state.google_login_url)
-        //     .then(res => console.log(res.json()))
-    }
     render () {
         return (
             <div className = "flex justify-center <md:flex-col items-center">
@@ -58,18 +40,22 @@ class Login extends Component {
                     <h1 className = "text-3xl font-thin mb-2">로그인</h1>
                     <h4 className = "text-xs font-thin mb-6">다음으로 로그인</h4>
                     <div className = "">
-                        <Button className = "w-50" icon = {<GoogleOutlined />} onClick={this.click}>
-                            구글로 로그인
-                        </Button>
+                        <a href = {this.state.google_login_url}>
+                            <Button className = "w-50" icon = {<GoogleOutlined />}>
+                                구글로 로그인
+                            </Button>
+                        </a>
                     </div>
                 </div>
                 <div className = "flex-grow flex justify-center items-center flex-col h-auto md:h-100 <md:(mt-10 mb-20)">
                     <h1 className = "text-3xl font-thin mb-2">가입</h1>
                     <h4 className = "text-xs font-thin mb-6">다음으로 가입</h4>
                     <div className = "">
-                        <Button className = "w-50" icon = {<GoogleOutlined />} onClick={this.click}>
-                            구글로 가입
-                        </Button>
+                        <a href = {this.state.google_register_url}>
+                            <Button className = "w-50" icon = {<GoogleOutlined />}>
+                                구글로 가입
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>
