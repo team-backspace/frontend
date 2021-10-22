@@ -11,6 +11,7 @@ import Search from "./pages/Search";
 import Login from "./pages/Login";
 import UserProfile from "./pages/UserProfile";
 import Project from "./pages/Project";
+import Callback from "./pages/Callback";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                         <Route path="/login" component={Login} />
                         <Route path="/user/:name" component={UserProfile} />
                         <Route path="/project/:id" component={Project} />
+                        <Route path="/callback" component={Callback} />
                     </Switch>
                 </div>
                 <Footer />
